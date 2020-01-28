@@ -1,0 +1,17 @@
+# WORKING WITH SHINY IN R (TEMPLATE)
+# CREDIT DATA SCIENCE TUTORIALS 
+
+# Load packages
+library(shiny)
+library(shinydashboard)
+
+shinyUI(
+  dashboardPage(
+    dashboardSidebar(),
+    dashboardBody()
+  )
+)
+
+shinyServer(function(input, output){
+
+)}
